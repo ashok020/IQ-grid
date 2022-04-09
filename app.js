@@ -297,7 +297,7 @@ function updateBar()
     per = Math.min(100,per);
     if(per ==0) per = 3;
     bar.style.width = `${per}%`;
-    if(per >= 30) //winning
+    if(per >= 100) //winning
     {
         setTimeout(()=>{show_win_container();},1000);
     }
